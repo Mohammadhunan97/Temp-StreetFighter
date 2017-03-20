@@ -1,0 +1,145 @@
+body{
+	background-image: url('assets/background.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+h1,h2{
+	color:white;
+}
+.enemyhealth{
+	position: absolute;
+	top: 1px;
+	right: 40px;
+}
+.enemystamina{
+	position: absolute;
+	top: 60px;
+	right: 40px;
+}
+#ken{
+	height: 400px;
+	position: absolute;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+#evilken{
+	height: 400px;
+	position: absolute;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.ken_breather_main{
+	width:300px;
+	background-image: url('assets/testbreather.png');
+	background-size: 308% 100%;
+	background-position: 0% 0%;
+}
+.ken_breather_first{
+	background-position: 48% 0%;
+}
+.ken_breather_second{
+	background-image: url('assets/breatherfinal.png');
+	background-position: 101% 0%;
+	background-size: 408% 100%;
+}
+.ken_jump_main{
+	width:300px;
+	background-image: url('assets/jumpfinal.png');
+	background-size: 400% 100%;
+	background-position: 0% 0%;
+}
+.ken_jump_first{
+	background-position: 50% 0%;
+}
+.ken_jump_second{
+	background-position: 100% 0%;
+}
+.ken_crouch_main{
+	width:300px;
+	background-image: url('assets/jumpfinal.png');
+	background-size: 400% 100%;
+	background-position: 100% 0%;
+}
+.ken_punchone_main{
+	width: 350px;
+	background-image: url('assets/punch1.png');
+	background-size: 570% 100%;
+	background-position: 100% 0%;
+}
+.ken_punchone_first{
+	background-position: 80% 0%;
+}
+.ken_punchone_second{
+	background-position: 60% 0%;
+}
+.ken_punchone_third{
+	background-position: 30% 0%;
+}
+.ken_punchone_fourth{
+	background-position: 0% 0%;
+}
+.ken_punchtwo_main{
+	width: 300px;
+	background-image: url('assets/punch2.png');
+	background-size: 300% 100%;
+	background-position: 0% 0%;
+}
+.ken_punchtwo_first{
+	background-position: 40% 0%;
+}
+.ken_punchtwo_second{
+	background-position: 100% 0%;
+}
+.ken_kickone_main{
+	width: 300px;
+	background-image: url('assets/kick1.png');
+	background-size: 300% 100%;
+	background-position: 110% 0%;
+}
+.ken_kickone_first{
+	background-position: 60% 0%;
+}
+.ken_kickone_second{
+	background-position: 0% 0%;
+}
+.ken_kicktwo_main{
+	width: 300px;
+	background-image: url('assets/kick2.png');
+	background-size: 450% 100%;
+	background-position: -5% 0%;
+}
+.ken_kicktwo_first{
+	background-position: 20% 0%;
+}
+.ken_kicktwo_second{
+	background-size: 360% 100%;
+	background-position: 60% 0%;
+}
+.ken_kicktwo_third{
+	background-position: 100% 0%;
+}
+.ken_hadoken_main{
+	width: 400px;
+	background-image: url('assets/testfireball.png');
+	background-size: 720% 130%;
+	background-position: -4% 0%;
+}
+.ken_hadoken_first{
+	width: 750px;
+	background-size: 500% 130%;
+	background-position: 16% 0%;
+}
+.ken_hadoken_second{
+	background-image: url('assets/tes.png');
+	width: 1700px;
+	background-size: 85% 130%;
+	background-position: 100% 0%;
+}
+.topdog{
+	z-index: 4;
+}
+.dmg{
+	font-family: font-family: 'Alfa Slab One', cursive;
+	color: gold;
+	font-size: 4em;
+}

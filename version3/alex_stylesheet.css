@@ -1,0 +1,103 @@
+#alex{
+	height: 400px;
+	position: absolute;
+	background-repeat: no-repeat;
+	overflow: visible;
+
+}
+#evilalex{
+	height: 400px;
+	position: absolute;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.alex_breather_main{
+	width:300px;
+	background-image: url('assets/alex_breather_main.png');
+	background-size: 400% 100%;
+	background-position: 0% 0%;
+}
+.alex_breather_first{
+	background-position: 50% 0%;
+}
+.alex_breather_first{
+	background-position: 100% 0%;
+}
+.alex_jump_main{
+	background-image: url('assets/alex_jump_main.png');
+	width:300px;
+	background-size: 400% 100%;
+	background-position: 0% 0%;
+}
+.alex_jump_first{
+	background-position: 50% 0%;
+}
+.alex_jump_second{
+	background-position: 100% 0%;
+}
+.alex_punchone_main{
+	background-image: url('assets/alex_punchone_main.png');
+	width:470px;
+	background-size: 400% 100%;
+	background-position: -3% 0%;
+}
+.alex_punchone_first{
+	width:460px;
+	background-size: 570% 100%;
+	background-position: 26% 0%;
+}
+.alex_punchone_second{
+	background-position: 53% 0%;
+}
+.alex_punchone_third{
+	background-position: 83% 0%;
+}
+.alex_punchone_fourth{
+	background-position: 107% 0%;
+}
+.alex_punchtwo_main{
+	background-image: url('assets/alex_punchtwo_main.png');
+	width:410px;
+	background-size: 400% 100%;
+	background-position: 0% 0%;
+}
+.alex_punchtwo_first{
+	width:510px;
+	background-position: 50% 0%;
+	background-size: 360% 100%;
+}
+.alex_punchtwo_second{
+	background-position: 105% 0%;
+}
+.alex_kickone_main{
+	background-image: url('assets/alex_kickone_main.png');
+	width:300px;
+	background-size: 330% 100%;
+	background-position: 0% 0%;
+}
+.alex_kickone_first{
+	background-position: 50% 0%;
+}
+.alex_kickone_second{
+	background-position: 100% 0%;
+}
+.alex_kicktwo_main{
+	background-image: url('assets/alex_kicktwo_main.png');
+	width:300px;
+	background-size: 600% 100%;
+	background-position: -5% 0%;
+}
+.alex_kicktwo_first{
+	background-position: 26% 0%;
+}
+.alex_kicktwo_second{
+	background-position: 56% 0%;
+}
+.alex_kicktwo_third{
+	width:500px;
+	background-size: 370% 100%;
+	background-position: 101% 0%;
+}
+.topdog{
+	z-index: 4;
+}
